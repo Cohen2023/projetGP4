@@ -10,26 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Go_Green
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Authentification.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Authentification : Window
     {
-        public MainWindow()
+        public Authentification()
         {
             InitializeComponent();
-        }
-
-        private void bt_start_Click(object sender, RoutedEventArgs e)
-        {
-            Authentification authentification = new Authentification();
-            authentification.Show();
-            this.Hide();
         }
     }
 }

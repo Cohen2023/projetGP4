@@ -6,7 +6,16 @@
         xmlns:local="clr-namespace:Go_Green"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FFC1E9B7">
+        <Image Source="/Go Green.png" Stretch="Fill" RenderTransformOrigin="0.506,0.415" Margin="463,0,0,158" HorizontalAlignment="Left" Width="327"/>
+        <Image HorizontalAlignment="Left" Height="442" VerticalAlignment="Top" Width="443" Source="/nature-sprout-dirt-young-seedling.jpg"/>
+        <Button x:Name="bt_start" Content="CLIQUEZ POUR COMMENCER !" HorizontalAlignment="Left" Height="44" Margin="494,281,0,0" VerticalAlignment="Top" Width="266" Background="White" FontSize="14" FontWeight="Bold" BorderBrush="{x:Null}" Foreground="#FF3E603B" Click="bt_start_Click" FontFamily="Constantia">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
     </Grid>
 </Window>
